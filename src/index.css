@@ -1,0 +1,90 @@
+.container{
+  text-align: center;
+} 
+
+h1{
+  font-weight: 800;
+  text-shadow: 2px 2px #9999ff;
+  /* font-family: 'Lobster', Georgia, Times, serif; */
+  font-family: 'Arvo', Georgia, Times, serif;
+}
+a{
+  color: #7070b6;
+
+  text-decoration: none;
+}
+a:hover{
+  color: #ff0055;
+  transition: 2.5s;
+  text-shadow: 2px 2px #ff99bb;
+}
+
+input{
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 250px;
+  border: none;
+  box-shadow: 5px 5px 5px #888888;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #e6e6ff;
+}
+input:hover{
+  border: 2px solid #9999ff;
+  height: 36px;
+  width: 246px;
+  background-color: #b3b3ff;
+  transition: 0.1s;
+}
+
+.btn{
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+  height: 42px;
+  cursor: pointer;
+  background-color: #e6e6ff;
+  /* border: 1px solid black; */
+  width: 90px;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 5px;
+  border: none;
+}
+.btn:hover{
+  background-color: #b3b3ff;
+  transition: 0.8s;
+}
+
+.colors{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  display: inline;
+}
+
+.color-light{
+  color: aliceblue;
+}
+
+.color{
+  /* margin-bottom: -16px; */
+  height: 150px;
+  cursor: pointer;
+  border: 1px solid #d6d0d0;
+}
+.color:hover{
+  border: 2.5px solid #000000;
+  transition: 0.2s;
+}
+
+.percent-value{
+  padding-top: 10px;
+}
+
+.alert{
+  font-weight: 520;
+}
